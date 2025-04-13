@@ -1,0 +1,53 @@
+#background {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(-45deg, #000000, #121212, #1a1a1a, #0d0d0d);
+
+    background-size: 400% 400%;
+    color: white;
+    overflow: hidden;
+    transition: background-position 0.2s ease;
+    will-change: background-position;
+    z-index: 0;
+}
+
+  /* Animated soft aura glow */
+#background::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 0, 150, 0.1), transparent 70%);
+    animation: glowMove 30s linear infinite;
+    filter: blur(100px);
+    z-index: 0;
+}
+
+  /* Glow movement keyframes */
+  @keyframes glowMove {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(25%, 25%);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  @media (max-width: 768px) {
+    #background::before {
+      filter: blur(60px);
+    }
+  }
+
+footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin: 25px;
+}

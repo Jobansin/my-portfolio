@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#info h1 {
+    font-size: 70px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#text h2 {
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+#text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#info #icons {
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+
+}
+
+#info #icons a {
+    color: whitesmoke
+}
+
+#info #icons svg {
+    cursor: pointer;
+}
+
+#info #icons svg:hover {
+    color: gray
+}
+
+#portrait {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;              /* perfect circle */
+    object-fit: cover;              /* ✨ keeps aspect ratio, zooms/crops to fit */
+    object-position: center top;    /* 👈 adjust to your face — can try center 20% */
+    padding: 20px;
+    
+}
+
+@media screen and (max-width: 1000px) {
+    #info h1 {
+        font-size: 50px;
+    }
+    #info h2 {
+        font-size: 20px;
+    }
+    #info #icons {
+        size: 1em;
+    }
+}
+
+#icons a:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+@media screen and (max-width: 576px) {
+
+    #portrait {
+        width: 50%;
+        height: 50%;
+        padding: 20px;
+    }
+
+    #info h1 {
+        font-size: 30px;
+    }
+    #info h2 {
+        font-size: 15px;
+        padding: 0;
+    }
+}

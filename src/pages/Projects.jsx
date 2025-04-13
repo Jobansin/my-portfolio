@@ -11,7 +11,7 @@ return (
                 <img className="proj" src="marketiq.png"></img>
                 <div className="description">
                     <p className="title">MarketIQ AI</p>
-                    <p>Allows for a user to create and save tasks for easy organization</p>
+                    <p>Stock analysis web app with real-time data and ML-ready backend</p>
                     <a href="https://github.com/Jobansin/marketiq-ai"><FaGithub size="4em"/></a>
                 </div>
             </div>
@@ -19,7 +19,7 @@ return (
                 <img className="proj" src="ruliving.png"></img>
                 <div className="description">
                     <p className="title">RU Living</p>
-                    <p>Helps simplify dormitory selection for Rutgers students</p>
+                    <p>Helps Rutgers students find optimal dorm and roommate matches</p>
                     <a href="https://github.com/Jobansin/RU_Living"><FaGithub size="4em"/></a>
                 </div>
             </div>
@@ -30,7 +30,7 @@ return (
             </div>
                 <div className="description">
                     <p className="title">RU Café</p>
-                    <p>A fun short quiz game that uses the echo3D API to show interactive 3D results.</p>
+                    <p>Android app for ordering menu items with cart and tax features</p>
                     <a href="https://github.com/Jobansin/RU_Cafe"><FaGithub size="4em"/></a>
                 </div>
             </div>

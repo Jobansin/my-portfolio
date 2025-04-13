@@ -22,7 +22,7 @@ function Navbar() {
             setText("JS");
         }
         else {
-            setText("Joban Singh")
+            setText("Jobanpreet Singh")
         }
     }, [windowWidth]);
 

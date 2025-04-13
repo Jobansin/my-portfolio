@@ -14,7 +14,7 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/projects" element={<Projects/>} />
     </Routes>
-    <footer>© 2025 Joban Singh</footer>
+    <footer>© 2025 Jobanpreet Singh</footer>
   </div>
 </Router>
 

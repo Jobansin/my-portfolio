@@ -4,7 +4,7 @@ Personal developer portfolio built with React and Vite. Features a responsive la
 
 ## 🔗 Live Demo
 
-[https://your-portfolio-site.com](https://your-portfolio-site.com) <!-- replace this if deployed -->
+[https://jobanpreet-singh.vercel.app](https://jobanpreet-singh.vercel.app) <!-- replace this if deployed -->
 
 ## Projects
 

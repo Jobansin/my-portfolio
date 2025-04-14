@@ -6,12 +6,11 @@ Personal developer portfolio built with React and Vite. Features a responsive la
 
 [https://your-portfolio-site.com](https://your-portfolio-site.com) <!-- replace this if deployed -->
 
-## 🧠 Projects
+## Projects
 
 - **MarketIQ** – Stock analysis tool using FastAPI, PostgreSQL, and React.
 - **RU Café** – Android ordering app with cart, tax, and receipt features (JavaFX).
 - **RU Living** – Dorm and roommate selection tool built with React.
-- **Quiz Quest** – 3D quiz game powered by the Echo3D API.
 
 ## ⚙️ Tech Stack
 

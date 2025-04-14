@@ -11,36 +11,45 @@
 
 #list h1 {
     font-size: 70px;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    margin-bottom: 10;
+    margin-bottom: 10px;
     padding-bottom: 30px;
-    margin-bottom: 10;
 }
 
 #box {
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     padding-bottom: 30px;
 }
 
 @media screen and (max-width: 1000px) {
     #box {
-        grid-template-columns:repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 .proj {
     width: 100%;
-    height: 350px;
+    aspect-ratio: 20 / 9;
+    object-fit: cover;
     border: 5px solid black;
+    max-width: 750px;
+}
+
+.proj-vertical {
+    aspect-ratio: auto;
+    width: 300px;
+    height: auto;
+    border: 5px solid black;
+    object-fit: cover;
 }
 
 .project-card {
     position: relative;
     width: 100%;
-    max-width: 600px;
+    max-width: 750px;
 }
 
 .description {
@@ -54,8 +63,8 @@
     visibility: hidden;
     justify-content: center;
     opacity: 0;
-    height: 355px;
-    width: calc(100% + 5px);
+    height: 100%;
+    width: 100%;
     transition: opacity 0.3s;
     flex-direction: column;
     text-align: center;
@@ -77,11 +86,15 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-
 @media screen and (max-width: 600px) {
     .proj {
         border: none;
+        aspect-ratio: auto;
         height: 250px;
+    }
+
+    .proj-vertical {
+        width: 100%;
     }
 
     .description {
@@ -117,4 +130,9 @@ a {
 
 a:hover {
     color: gray;
+}
+#ruliving {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }

@@ -16,7 +16,7 @@ return (
                 </div>
             </div>
             <div className="project-card">
-                <img className="proj" src="ruliving.png"></img>
+            <img id="ruliving" className="proj" src="ruliving.png" />
                 <div className="description">
                     <p className="title">RU Living</p>
                     <p>Helps Rutgers students find optimal dorm and roommate matches</p>
@@ -26,7 +26,6 @@ return (
             <div className="project-card">
             <div className="project-images">
                 <img src="rucafe1.png"></img>
-                <img src="rucafe2.png"></img>
             </div>
                 <div className="description">
                     <p className="title">RU Café</p>

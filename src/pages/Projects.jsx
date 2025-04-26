@@ -8,14 +8,14 @@ return (
         <h1>Projects</h1>
         <div id="box">
             <div className="project-card">
-                <img className="proj" src="marketiq.png"></img>
-                <div className="description">
-                    <p className="title">MarketIQ AI</p>
-                    <p>Stock analysis web app with real-time data and ML-ready backend</p>
-                    <a href="https://github.com/Jobansin/marketiq-ai"><FaGithub size="4em"/></a>
+                <img id="ruliving" className="proj" src="kinsubii.png" />
+                    <div className="description">
+                        <p className="title">Date Knight</p>
+                        <p>Date Knight landing page for the startup Kinsubii</p>
+                        <a href="https://github.com/Jobansin/date_knight"><FaGithub size="4em"/></a>
+                    </div>
                 </div>
-            </div>
-            <div className="project-card">
+        <div className="project-card">
             <img id="ruliving" className="proj" src="ruliving.png" />
                 <div className="description">
                     <p className="title">RU Living</p>
@@ -24,13 +24,11 @@ return (
                 </div>
             </div>
             <div className="project-card">
-            <div className="project-images">
-                <img src="rucafe1.png"></img>
-            </div>
+                <img className="proj" src="marketiq.png"></img>
                 <div className="description">
-                    <p className="title">RU Café</p>
-                    <p>Android app for ordering menu items with cart and tax features</p>
-                    <a href="https://github.com/Jobansin/RU_Cafe"><FaGithub size="4em"/></a>
+                    <p className="title">MarketIQ AI</p>
+                    <p>Stock analysis web app with real-time data and ML-ready backend</p>
+                    <a href="https://github.com/Jobansin/marketiq-ai"><FaGithub size="4em"/></a>
                 </div>
             </div>
         </div>

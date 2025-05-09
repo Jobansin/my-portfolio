@@ -8,7 +8,7 @@ return (
         <h1>Projects</h1>
         <div id="box">
             <div className="project-card">
-                <img id="ruliving" className="proj" src="kinsubii.png" />
+                <img id="kinsubii" className="proj" src="kinsubii.png" />
                     <div className="description">
                         <p className="title">Date Knight</p>
                         <p>Date Knight landing page for the startup Kinsubii</p>

@@ -1,10 +1,10 @@
-# Joban Singh | Portfolio
+# Jobanpreet Singh | Portfolio
 
 Personal developer portfolio built with React and Vite. Features a responsive layout, animated background effects, and a showcase of full-stack and mobile projects.
 
 ## 🔗 Live Demo
 
-[https://jobanpreet-singh.vercel.app](https://jobanpreet-singh.vercel.app) <!-- replace this if deployed -->
+[https://jobanpreet-singh.vercel.app](https://jobanpreet-singh.vercel.app)
 
 ## Projects
 
